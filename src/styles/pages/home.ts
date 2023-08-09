@@ -13,6 +13,7 @@ export const Product = styled('a', {
     borderRadius: 8,
     cursor: 'pointer',
     position: 'relative',
+    height: 450,
 
     overflow: 'hidden',
 
@@ -30,6 +31,7 @@ export const Product = styled('a', {
         left: '0.25rem',
         right: '0.25rem',
         padding: '2rem',
+        height: '1rem',
 
         borderRadius: 6,
 
@@ -44,7 +46,8 @@ export const Product = styled('a', {
         transition: 'all 0.2s ease-in-out',
 
         strong: {
-            fontSize: '$lg', 
+            fontSize: '$lg',
+            color: '$Gray100' 
         },
 
         span: {
